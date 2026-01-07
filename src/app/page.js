@@ -45,10 +45,10 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           <div>
             <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
-              Bachelor of Science (Computer Science)
+              Bachelor of Science (Computer Science & Information and Technology management)
             </h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              University of Auckland - 2021 to 2025
+              University of Auckland - 2022 to 2025
             </p>
           </div>
         </div>
@@ -67,6 +67,19 @@ export default function Home() {
               <p className="text-zinc-600 dark:text-zinc-400">
                 University of Auckland - April 2025 to October 2025
               </p>
+                          <ul className="mt-2 list-disc space-y-1 pl-4 text-sm text-zinc-600 dark:text-zinc-400">
+              <li>
+                Volunteered in a team of six (with two tech leaders) to develop
+                a website for Rainbow Engineering, providing registration and
+                club information.
+              </li>
+              <li>
+                 Followed client requirements from the design stage through to implementation.
+              </li>
+              <li>
+                Attended regular team meetings focused on collaboration, productivity, and engagement.
+              </li>
+            </ul>
             </div>
           </div>
         </div>
