@@ -37,6 +37,23 @@ export default function Home() {
             Contact Me
           </a>
         </div>
+      {/* Education */}
+      <div className="flex flex-col gap-6">
+        <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          Education
+        </h2>
+        <div className="flex flex-col gap-4">
+          <div>
+            <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
+              Bachelor of Science (Computer Science)
+            </h3>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              University of Auckland - 2021 to 2025
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Experience */}
         <div className="flex flex-col gap-6">
           <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
