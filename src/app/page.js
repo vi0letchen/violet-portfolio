@@ -90,7 +90,31 @@ export default function Home() {
             Selected Projects
           </h2>
           <div className="flex flex-col gap-4">
-            
+                        <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+              <div className="flex items-baseline justify-between gap-2">
+                <h3 className="font-semibold">CoLab</h3>
+                <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                  Sep 2025
+                </p>
+              </div>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                Fullstack web app for the UoA Chemistry Department
+              </p>
+              <ul className="list-disc space-y-1 pl-4 text-zinc-600 dark:text-zinc-400">
+                <li>
+                  Worked with five teammates to build a website that helps the
+                  department share and trade laboratory reagents more easily.
+                </li>
+                <li>
+                  Planned and led meetings, making sure everyone stayed on track
+                  and supported.
+                </li>
+                <li>
+                  Contributed across the stack from design through
+                  implementation to deliver a polished product.
+                </li>
+              </ul>
+            </article>
             </div>
         </div>
       </main>
