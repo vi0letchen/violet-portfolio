@@ -83,6 +83,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Projects */}
+        <div className="flex flex-col gap-6">
+          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+            Selected Projects
+          </h2>
+          <div className="flex flex-col gap-4">
+            
+            </div>
+        </div>
       </main>
     </div>
   );
