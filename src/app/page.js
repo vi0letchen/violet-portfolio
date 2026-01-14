@@ -69,6 +69,14 @@ export default function Home() {
                 University of Auckland - 2022 to 2025
               </p>
             </div>
+                        <div>
+              <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
+                NCEA Level 1 - Level 3
+              </h3>
+              <p className="text-zinc-600 dark:text-zinc-400">
+                Mount Roskill Grammar School - 2018 to 2021
+              </p>
+            </div>
           </div>
         </div>
 
@@ -110,6 +118,25 @@ export default function Home() {
             Selected Projects
           </h2>
           <div className="flex flex-col gap-4">
+                            <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+              <div className="flex items-baseline justify-between gap-2">
+                <h3 className="font-semibold">Rainbow Engineering</h3>
+                <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                  April 2025
+                </p>
+              </div>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                Fullstack web app for the UoA Rainbow Engineering Club
+              </p>
+              <div className="list-disc space-y-1 pl-4 text-zinc-600 dark:text-zinc-400">
+                Rainbow Engineering is an infomation website made for the club Rainbow Engineering at the University of Auckland.
+                Managed and built through the Web Development and Consulting Club. The website provides a platform to manage registrations 
+                and share information about the events.
+                It supports users to sign up for events from a Google Form 
+                and clients to edit website content through Payload CMS
+              </div>
+            </article>
+
             <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">CoLab</h3>
