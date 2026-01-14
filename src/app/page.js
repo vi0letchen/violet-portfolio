@@ -170,6 +170,31 @@ export default function Home() {
                 Live Project
               </a>
             </article>
+
+                        <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+              <div className="flex items-baseline justify-between gap-2">
+                <h3 className="font-semibold">SpacePlates</h3>
+                <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                  Apr 2024
+                </p>
+              </div>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                Product for 2024 SESA x WDCC Hackathon
+              </p>
+              <div className="pl-4 text-zinc-600 dark:text-zinc-400">
+                SpacePlates is a vanilla based food delivery platform to help aliens across different planets
+                under the 2024 SESA x WDCC Hackathon theme "Escape from Earth". It contains a Tinder like
+                swiping system for users to select their preferred food options, for aliens to find their 
+                ideal food quickly, including ordering and payment system.
+                <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                  #JavaScript   #HTML   #CSS
+              </div>
+              </div>
+              <a href="https://github.com/saikam2003/wdcc-team-teletubbies" className="flex h-8 w-full items-center justify-center rounded-lg
+               border border-solid border-black/[.08] transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[120px]" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+            </article>
           </div>
         </div>
       </main>
