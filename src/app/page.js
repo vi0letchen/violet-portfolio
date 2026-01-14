@@ -135,10 +135,11 @@ export default function Home() {
                 and share information about the events.
                 It supports users to sign up for events from a Google Form 
                 and clients to edit website content through Payload CMS.
-              </div>
-              <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                              <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
                   #Next.js   #React   #TailwindCSS   #MongoDb  #PayloadCMS
               </div>
+              </div>
+
             </article>
 
             <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
