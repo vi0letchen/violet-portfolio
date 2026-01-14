@@ -139,6 +139,10 @@ export default function Home() {
                   #Next.js   #React   #TailwindCSS   #MongoDb  #PayloadCMS
               </div>
               </div>
+              <a href="https://rainbowengineering.wdcc.co.nz/" className="flex h-8 w-full items-center justify-center rounded-lg
+               border border-solid border-black/[.08] transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[120px]" target="_blank" rel="noopener noreferrer">
+                Live Project
+              </a>
 
             </article>
 
@@ -161,6 +165,10 @@ export default function Home() {
                   #Next.js   #React   #TailwindCSS   #Firebase  #TSOA
               </div>
               </div>
+              <a href="https://colab.exchange/" className="flex h-8 w-full items-center justify-center rounded-lg
+               border border-solid border-black/[.08] transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[120px]" target="_blank" rel="noopener noreferrer">
+                Live Project
+              </a>
             </article>
           </div>
         </div>
