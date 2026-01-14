@@ -128,13 +128,16 @@ export default function Home() {
               <p className="text-xs text-zinc-500 dark:text-zinc-400">
                 Fullstack web app for the UoA Rainbow Engineering Club
               </p>
-              <div className="list-disc space-y-1 pl-4 text-zinc-600 dark:text-zinc-400">
+              <div className="pl-4 text-zinc-600 dark:text-zinc-400">
                 Rainbow Engineering is an infomation website made for the club Rainbow Engineering at the University of Auckland.
                 Managed and built through the Web Development and Consulting Club. The website provides a platform 
                 for the club to manage registrations 
                 and share information about the events.
                 It supports users to sign up for events from a Google Form 
                 and clients to edit website content through Payload CMS.
+              </div>
+              <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                  #Next.js   #React   #TailwindCSS   #MongoDb  #PayloadCMS
               </div>
             </article>
 
@@ -148,11 +151,14 @@ export default function Home() {
               <p className="text-xs text-zinc-500 dark:text-zinc-400">
                 Fullstack web app for the UoA Chemistry Department
               </p>
-              <div className="list-disc space-y-1 pl-4 text-zinc-600 dark:text-zinc-400">
+              <div className="pl-4 text-zinc-600 dark:text-zinc-400">
                 CoLab is a collaborative platform designed for New Zealand institutions' Chemistry Departments.
+                It aims to prevent wastes of expired reagents and promote sustainable practices in chemistry labs.
                 It provides a space for students and educators to share chemical products.
                 Users can create profiles, upload products with detailed information, and explore contributions from others.
-                CoLab aims to prevent wastes of expired reagents and promote sustainable practices in chemistry labs.
+                <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                  #Next.js   #React   #TailwindCSS   #Firebase  #TSOA
+              </div>
               </div>
             </article>
           </div>
