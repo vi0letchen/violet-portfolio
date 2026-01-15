@@ -170,7 +170,30 @@ export default function Home() {
                 Live Project
               </a>
             </article>
-
+                        <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+              <div className="flex items-baseline justify-between gap-2">
+                <h3 className="font-semibold">PartScanner</h3>
+                <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                  Jul 2025
+                </p>
+              </div>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                Product for 2025 Partly x WDCC Hackathon
+              </p>
+              <div className="pl-4 text-zinc-600 dark:text-zinc-400">
+                PartScanner is a vehicle assessment tool built with Tkinter for vehicle part identification.
+                It allows users to select parts of the vehicle from different angles and those data are sent
+                to a backend server provided by Partly for analysis. The tool then provides feedback on the condition of the parts,
+                helping users to identify potential issues.
+                <div className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                  #Tkinter #Python
+              </div>
+              </div>
+              <a href="https://github.com/saikam2003/wdcc-team-teletubbies" className="flex h-8 w-full items-center justify-center rounded-lg
+               border border-solid border-black/[.08] transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[120px]" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+            </article>
                         <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">SpacePlates</h3>
