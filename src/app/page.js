@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { BookText } from "lucide-react";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50">
-      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-16">
+      <Navbar/>
+      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-16 pt-20">
         {/* Self Introduction */}
         <div className="flex flex-col gap-6 justify-between">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
