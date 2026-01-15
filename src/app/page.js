@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50">
       <Navbar/>
-      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-16 pt-20">
+      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-80 pt-20">
         {/* Self Introduction */}
         <div className="flex flex-col gap-6 justify-between">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
@@ -17,8 +17,7 @@ export default function Home() {
             creating beautiful and functional web applications. Explore my
             projects and get to know more about me.
           </p>
-        </div>
-        {/* Links */}
+                  {/* Links */}
 
         <div className="flex flex-col sm:flex-row items-start gap-4 text-base font-medium ">
           <a
@@ -56,9 +55,11 @@ export default function Home() {
             Contact Me!
           </a>
         </div>
+        </div>
+
         {/* Education */}
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          <h2 className="text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50 flex justify-center">
             Education
           </h2>
           <div className="flex flex-col gap-4">
@@ -84,7 +85,7 @@ export default function Home() {
 
         {/* Experience */}
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Experience
           </h2>
           <div className="flex flex-col gap-4">
@@ -116,7 +117,7 @@ export default function Home() {
 
         {/* Projects */}
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Selected Projects
           </h2>
           <div className="flex flex-col gap-4">
