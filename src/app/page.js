@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50">
       <Navbar/>
-      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-80">
+      <main className="mx-auto flex max-w-5xl flex-col">
         {/* Self Introduction */}
-        <div className="flex min-h-[calc(100vh-60px)] items-center">
+        <div className="flex min-h-[calc(100vh-40px)] items-center">
           <div className="flex flex-col gap-6 justify-between w-full">
           <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Hello, I'm Violet!
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         {/* Education */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 mb-12 md:mb-80">
           <h2 className="text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50 flex justify-center">
             Education
           </h2>
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         {/* Experience */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 mb-12 md:mb-80">
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Experience
           </h2>
@@ -118,7 +118,7 @@ export default function Home() {
         </div>
 
         {/* Projects */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 mb-12 md:mb-80">
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Selected Projects
           </h2>
