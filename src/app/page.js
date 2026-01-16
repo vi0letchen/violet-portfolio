@@ -6,10 +6,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50">
       <Navbar/>
-      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-80 pt-20">
+      <main className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-80">
         {/* Self Introduction */}
-        <div className="flex flex-col gap-6 justify-between">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+        <div className="flex min-h-[calc(100vh-60px)] items-center">
+          <div className="flex flex-col gap-6 justify-between w-full">
+          <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Hello, I'm Violet!
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
@@ -55,6 +56,7 @@ export default function Home() {
             Contact Me!
           </a>
         </div>
+          </div>
         </div>
 
         {/* Education */}
