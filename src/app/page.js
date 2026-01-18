@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import { BookText } from "lucide-react";
 import Navbar from "./components/navbar";
+import {motion} from "framer-motion";
 
 export default function Home() {
   return (
@@ -8,7 +11,12 @@ export default function Home() {
       <Navbar />
       <main className="mx-auto flex max-w-5xl flex-col">
         {/* Self Introduction */}
-        <div className="flex min-h-[calc(100vh-40px)] items-center">
+        <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      viewport={{ once: true }}
+        className="flex min-h-[calc(100vh-40px)] items-center">
           <div className="flex flex-col gap-6 justify-between w-full">
             <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
               Hello, I'm Violet!
@@ -57,7 +65,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Education */}
         <div className="flex flex-col gap-6 mb-12 md:mb-80">
