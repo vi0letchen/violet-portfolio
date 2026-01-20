@@ -68,7 +68,11 @@ export default function Home() {
         </motion.div>
 
         {/* Education */}
-        <div className="flex flex-col gap-6 mb-12 md:mb-80">
+        <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      viewport={{ once: true }} className="flex flex-col gap-6 mb-12 md:mb-80">
           <h2 className="text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50 flex justify-center">
             Education
           </h2>
@@ -91,10 +95,14 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Experience */}
-        <div className="flex flex-col gap-6 mb-12 md:mb-80">
+        <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      viewport={{ once: true }} className="flex flex-col gap-6 mb-12 md:mb-80">
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Experience
           </h2>
@@ -123,10 +131,14 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Projects */}
-        <div className="flex flex-col gap-6">
+        <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      viewport={{ once: true }} className="flex flex-col gap-6">
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
             Selected Projects
           </h2>
@@ -259,7 +271,7 @@ export default function Home() {
               </a>
             </article>
           </div>
-        </div>
+        </motion.div>
       </main>
     </div>
   );
