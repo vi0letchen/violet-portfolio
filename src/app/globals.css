@@ -15,11 +15,17 @@
 html.dark {
   --background: #0a0a0a;
   --foreground: #ededed;
+  --title: #cac1e8;
+  --text: #f3eef8;
+  --subtitle: #d8c9ea;
 }
 
 html.light {
   --background: #ffffff;
   --foreground: #171717;
+  --title: #362367;
+  --text: #090612;
+  --subtitle: #6340bc;
 }
 
 body {
