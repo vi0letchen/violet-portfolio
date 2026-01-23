@@ -24,10 +24,10 @@ export default function Home() {
           className="flex min-h-[calc(100vh-40px)] items-center"
         >
           <div className="flex flex-col gap-6 justify-between w-full">
-            <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-title">
               Hello, I'm Violet!
             </h1>
-            <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-lg leading-8 text-text">
               Welcome to my personal website! I'm a passionate developer who
               loves creating beautiful and functional web applications. Explore
               my projects and get to know more about me.
