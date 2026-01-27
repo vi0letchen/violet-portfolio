@@ -7,12 +7,13 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div 
-    style={{
-      backgroundImage:"url('starDark.svg')",
-      backgroundAttachment: "fixed"
-    }}
-     className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50">
+    <div
+      style={{
+        backgroundImage: "url('starDark.svg')",
+        backgroundAttachment: "fixed",
+      }}
+      className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50"
+    >
       <Navbar />
       <main className="mx-auto flex max-w-5xl flex-col">
         {/* Self Introduction */}
@@ -155,7 +156,7 @@ export default function Home() {
             Selected Projects
           </h2>
           <div className="flex flex-col gap-4">
-            <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+            <article className="flex flex-col gap-3 rounded-2xl bg-white/20 backdrop-blur-lg p-5 text-sm shadow-lg dark:bg-black/20 dark:backdrop-blur-lg border border-white/20 dark:border-white/10">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">Rainbow Engineering</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -188,7 +189,7 @@ export default function Home() {
               </a>
             </article>
 
-            <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+            <article className="flex flex-col gap-3 rounded-2xl bg-white/20 backdrop-blur-lg p-5 text-sm shadow-lg dark:bg-black/20 dark:backdrop-blur-lg border border-white/20 dark:border-white/10">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">CoLab</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -220,7 +221,7 @@ export default function Home() {
                 Live Project
               </a>
             </article>
-            <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+            <article className="flex flex-col gap-3 rounded-2xl bg-white/20 backdrop-blur-lg p-5 text-sm shadow-lg dark:bg-black/20 dark:backdrop-blur-lg border border-white/20 dark:border-white/10">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">PartScanner</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -251,7 +252,7 @@ export default function Home() {
                 Github
               </a>
             </article>
-            <article className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+            <article className="flex flex-col gap-3 rounded-2xl bg-white/20 backdrop-blur-lg p-5 text-sm shadow-lg dark:bg-black/20 dark:backdrop-blur-lg border border-white/20 dark:border-white/10">
               <div className="flex items-baseline justify-between gap-2">
                 <h3 className="font-semibold">SpacePlates</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400">
