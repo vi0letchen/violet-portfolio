@@ -16,7 +16,8 @@ export default function Home() {
     >
       <Navbar />
       <main className="mx-auto flex max-w-5xl flex-col">
-        {/* Self Introduction */}
+        
+{/* Self Introduction */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,9 +36,9 @@ export default function Home() {
             </p>
             {/* Links */}
 
-            <div className="flex flex-col sm:flex-row items-start gap-4 text-base font-medium ">
+            <div className="flex flex-col sm:flex-row items-start gap-4 text-base font-medium">
               <a
-                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-background to-foreground px-6 text-white shadow-lg shadow-foreground/30 transition-all duration-300 hover:shadow-xl hover:shadow-foreground/40 hover:scale-105 md:w-auto"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -47,23 +48,25 @@ export default function Home() {
               </a>
 
               <a
-                className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-6 transition-all duration-300 hover:bg-white/20 hover:scale-105 dark:bg-white/5 dark:border-white/10 dark:hover:bg-white/10 md:w-auto"
                 href="https://github.com/vi0letchen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Github
               </a>
+
               <a
-                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-6 transition-all duration-300 hover:bg-white/20 hover:scale-105 dark:bg-white/5 dark:border-white/10 dark:hover:bg-white/10 md:w-auto"
                 href="https://www.linkedin.com/in/hongjin-chen-103a46280/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
+
               <a
-                className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-6 transition-all duration-300 hover:bg-white/20 hover:scale-105 dark:bg-white/5 dark:border-white/10 dark:hover:bg-white/10 md:w-auto"
                 href="mailto:violetchenbusiness@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
