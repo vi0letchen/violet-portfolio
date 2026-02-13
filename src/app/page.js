@@ -12,7 +12,7 @@ export default function Home() {
         backgroundImage: "url('starDark.svg')",
         backgroundAttachment: "fixed",
       }}
-      className="min-h-screen bg-zinc-50 px-6 py-12 text-zinc-900 dark:bg-black dark:text-zinc-50"
+      className="min-h-screen bg-zinc-50 px-6 py-12  text-black dark:text-white"
     >
       <Navbar />
       <main className="mx-auto flex max-w-5xl flex-col">
@@ -85,12 +85,12 @@ export default function Home() {
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
         >
-          <h2 className="text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50 flex justify-center">
+          <h2 className="text-5xl font-semibold leading-9 tracking-tight text-title flex justify-center">
             Education
           </h2>
           <div className="flex flex-col gap-4">
             <div>
-              <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
+              <h3 className="text-xl font-medium leading-7 text-text">
                 Bachelor of Science (Computer Science & Information and
                 Technology management)
               </h3>
@@ -99,7 +99,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
+              <h3 className="text-xl font-medium leading-7 text-text">
                 NCEA Level 1 - Level 3
               </h3>
               <p className="text-zinc-600 dark:text-zinc-400">
@@ -117,12 +117,12 @@ export default function Home() {
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
         >
-          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
             Experience
           </h2>
           <div className="flex flex-col gap-4">
             <div>
-              <h3 className="text-xl font-medium leading-7 text-zinc-900 dark:text-zinc-100">
+              <h3 className="text-xl font-medium leading-7 text-text">
                 Software Developer
               </h3>
               <p className="text-zinc-600 dark:text-zinc-400">
@@ -155,7 +155,7 @@ export default function Home() {
           viewport={{ once: true }}
           className="flex flex-col gap-6"
         >
-          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-black dark:text-zinc-50">
+          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
             Selected Projects
           </h2>
           <div className="flex flex-col gap-4">
