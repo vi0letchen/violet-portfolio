@@ -25,6 +25,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex min-h-[calc(100vh-40px)] items-center"
+          style={{ scrollMarginTop: "100px"}}
         >
           <div className="flex flex-col gap-6 justify-between w-full">
             <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-title">
@@ -86,6 +87,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
+          style={{ scrollMarginTop: "100px"}}
         >
           <h2 className="text-5xl font-semibold leading-9 tracking-tight text-title flex justify-center">
             Education
@@ -119,6 +121,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
+          style={{ scrollMarginTop: "100px"}}
         >
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
             Experience
@@ -158,6 +161,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6"
+          style={{ scrollMarginTop: "100px"}}
         >
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
             Selected Projects
