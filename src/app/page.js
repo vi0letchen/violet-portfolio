@@ -19,6 +19,7 @@ export default function Home() {
         
 {/* Self Introduction */}
         <motion.div
+          id="home"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -79,6 +80,7 @@ export default function Home() {
 
         {/* Education */}
         <motion.div
+          id="education"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -111,6 +113,7 @@ export default function Home() {
 
         {/* Experience */}
         <motion.div
+          id="experience"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -149,6 +152,7 @@ export default function Home() {
 
         {/* Projects */}
         <motion.div
+          id="projects"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
