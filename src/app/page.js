@@ -4,20 +4,21 @@ import Image from "next/image";
 import { BookText } from "lucide-react";
 import Navbar from "./components/navbar";
 import { motion } from "framer-motion";
+import Experience from "./components/experience";
 
 export default function Home() {
   return (
     <div
       style={{
-        backgroundImage: "url('starDark.svg')",
+        backgroundImage: "url('/starDark_animated.svg')",
         backgroundAttachment: "fixed",
       }}
       className="min-h-screen bg-zinc-50 px-6 py-12  text-black dark:text-white"
     >
       <Navbar />
       <main className="mx-auto flex max-w-5xl flex-col">
-        
-{/* Self Introduction */}
+
+        {/* Self Introduction */}
         <motion.div
           id="home"
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +26,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex min-h-[calc(100vh-40px)] items-center"
-          style={{ scrollMarginTop: "100px"}}
+          style={{ scrollMarginTop: "100px" }}
         >
           <div className="flex flex-col gap-6 justify-between w-full">
             <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-title">
@@ -87,7 +88,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
-          style={{ scrollMarginTop: "100px"}}
+          style={{ scrollMarginTop: "100px" }}
         >
           <h2 className="text-5xl font-semibold leading-9 tracking-tight text-title flex justify-center">
             Education
@@ -102,14 +103,6 @@ export default function Home() {
                 University of Auckland - 2022 to 2025
               </p>
             </div>
-            <div>
-              <h3 className="text-xl font-medium leading-7 text-text">
-                NCEA Level 1 - Level 3
-              </h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                Mount Roskill Grammar School - 2018 to 2021
-              </p>
-            </div>
           </div>
         </motion.div>
 
@@ -121,36 +114,9 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6 mb-12 md:mb-80"
-          style={{ scrollMarginTop: "100px"}}
+          style={{ scrollMarginTop: "100px" }}
         >
-          <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
-            Experience
-          </h2>
-          <div className="flex flex-col gap-4">
-            <div>
-              <h3 className="text-xl font-medium leading-7 text-text">
-                Software Developer
-              </h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                University of Auckland - April 2025 to October 2025
-              </p>
-              <ul className="mt-2 list-disc space-y-1 pl-4 text-sm text-zinc-600 dark:text-zinc-400">
-                <li>
-                  Volunteered in a team of six (with two tech leaders) to
-                  develop a website for Rainbow Engineering, providing
-                  registration and club information.
-                </li>
-                <li>
-                  Followed client requirements from the design stage through to
-                  implementation.
-                </li>
-                <li>
-                  Attended regular team meetings focused on collaboration,
-                  productivity, and engagement.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <Experience />
         </motion.div>
 
         {/* Projects */}
@@ -161,10 +127,10 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className="flex flex-col gap-6"
-          style={{ scrollMarginTop: "100px"}}
+          style={{ scrollMarginTop: "100px" }}
         >
           <h2 className="flex justify-center text-5xl font-semibold leading-9 tracking-tight text-title">
-            Selected Projects
+            My Projects
           </h2>
           <div className="flex flex-col gap-4">
             <article className="flex flex-col gap-3 rounded-2xl bg-white/20 backdrop-blur-lg p-5 text-sm shadow-lg dark:bg-black/20 dark:backdrop-blur-lg border border-white/20 dark:border-white/10">
