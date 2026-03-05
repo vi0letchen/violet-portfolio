@@ -13,9 +13,17 @@ export default function Home() {
         backgroundImage: "url('/starDark_animated.svg')",
         backgroundAttachment: "fixed",
       }}
-      className="min-h-screen bg-zinc-50 px-6 py-12  text-black dark:text-white"
+      className="min-h-screen bg-zinc-50 py-12  text-black dark:text-white"
     >
       <Navbar />
+      <div className="w-full h-full bg-blue-600 text-white flex justify-center items-center pt-4 pb-2 gap-[8vw]">
+        <span>
+          Work in progress
+        </span>
+        <span className="flex flex-col">Last updated: 5th March 2026 21:06</span>
+        <span>to do next: work experience styling, game library project details</span>          
+
+      </div>
       <main className="mx-auto flex max-w-5xl flex-col">
 
         {/* Self Introduction */}
