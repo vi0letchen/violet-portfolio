@@ -3,10 +3,30 @@
 import Image from "next/image";
 import { BookText } from "lucide-react";
 import Navbar from "./components/navbar";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Experience from "./components/experience";
+import { useState, useEffect } from "react";
+
+
+
 
 export default function Home() {
+const whoamI = ["Software Developer", "Problem Solver", "Passionate Learner", "Team Player"];
+const [currentRole, setCurrentRole] = useState(0);
+const [fade, setFade] = useState(true);
+
+useEffect(()=>{
+  const interval = setInterval(()=>{
+    setFade(false);
+    setTimeout(()=>{
+      setCurrentRole((prev) => (prev + 1) % whoamI.length);
+      setFade(true);
+    },600)
+  },3000)
+  return () => clearInterval(interval);
+}, []);
+
+
   return (
     <div
       style={{
@@ -37,13 +57,27 @@ export default function Home() {
           style={{ scrollMarginTop: "100px" }}
         >
           <div className="flex flex-col gap-6 justify-between w-full">
-            <h1 className="max-w text-5xl font-semibold leading-10 tracking-tight text-title">
-              Hello, I'm Violet!
+            <h1 className="flex max-w text-7xl font-semibold leading-10 tracking-tight pb-[1rem] gap-[1rem]">
+              <div clasName="text-text">Hi, I'm</div> <div className="text-title">Violet</div>
             </h1>
-            <p className="max-w-md text-lg leading-8 text-text">
-              Welcome to my personal website! I'm a passionate developer who
-              loves creating beautiful and functional web applications. Explore
-              my projects and get to know more about me.
+            <p className=" text-2xl leading-8 text-text">
+              <div>
+              I'm a 
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={currentRole}
+                  initial={{ opacity: 0}}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                  className="inline-block ml-2 mr-2 text-title font-bold"
+                >
+                  {whoamI[currentRole]}
+                </motion.span>
+              </AnimatePresence>                
+              </div>
+              Feel free to explore my portfolio to learn more about me and my work.
+              
             </p>
             {/* Links */}
 
