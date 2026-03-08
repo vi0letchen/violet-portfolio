@@ -22,7 +22,7 @@ useEffect(()=>{
       setCurrentRole((prev) => (prev + 1) % whoamI.length);
       setFade(true);
     },600)
-  },3000)
+  },2000)
   return () => clearInterval(interval);
 }, []);
 
@@ -40,7 +40,7 @@ useEffect(()=>{
         <span>
           Work in progress
         </span>
-        <span className="flex flex-col">Last updated: 8th Mar 2026 14:19</span>
+        <span className="flex flex-col">Last updated: 8th Mar 2026 23:15</span>
         <span>to do next: work experience styling, game library project details</span>          
 
       </div>
@@ -69,7 +69,7 @@ useEffect(()=>{
                   initial={{ opacity: 0}}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.3 }}
                   className="inline-block ml-2 mr-2 text-title font-bold"
                 >
                   {whoamI[currentRole]}
