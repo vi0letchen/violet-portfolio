@@ -16,6 +16,13 @@ const [currentRole, setCurrentRole] = useState(0);
 const [fade, setFade] = useState(true);
 
 useEffect(()=>{
+
+  setFade(false);
+  setTimeout(() => {
+    setCurrentRole((prev) => (prev + 1) % whoamI.length);
+    setFade(true);
+  }, 1000);
+  
   const interval = setInterval(()=>{
     setFade(false);
     setTimeout(()=>{
