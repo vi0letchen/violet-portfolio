@@ -40,7 +40,7 @@ useEffect(()=>{
         <span>
           Work in progress
         </span>
-        <span className="flex flex-col">Last updated: 8th Mar 2026 23:15</span>
+        <span className="flex flex-col">Last updated: 27th Mar 2026 22:13</span>
         <span>to do next: work experience styling, game library project details</span>          
 
       </div>
